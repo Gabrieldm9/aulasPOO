@@ -6,15 +6,14 @@ public class Telefone {
 
     private HashMap<String,String> dados;
 
-    public Telefone(HashMap<String, String> dados) {
-
-        this.dados = new HashMap<>(dados);
+    public Telefone() {
+        this.dados = new HashMap<>();
     }
 
-    public boolean add(){
+    public boolean add(String r, String n){
         return false;
     }
-    public boolean remove(){
+    public boolean remove(String r){
         return false;
     }
 

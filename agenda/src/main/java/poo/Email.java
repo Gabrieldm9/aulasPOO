@@ -8,10 +8,10 @@ public class Email {
     public Email(HashMap<String, String> dados) {
         this.dados = new HashMap<>(dados);
     }
-    public boolean add(){
+    public boolean add(String r, String e){
         return false;
     }
-    public boolean remove(){
+    public boolean remove(String r){
         return false;
     }
 
